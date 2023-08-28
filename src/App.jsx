@@ -40,7 +40,6 @@ export const App = () => {
     const loader = useAppStore(state => state.loader)
     const [startValue, setStartValue] = useState(formatDate(start))
     const [stopValue, setStopValue] = useState(formatDate(stop))
-
     const data = {
         labels: result.map((el) => {
             const parts = el.date.split('-')

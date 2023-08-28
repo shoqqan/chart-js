@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL='http://shelter.bmsys.net:58600/api/dashboard/cash/'
+const baseURL='http://shelter.bmsys.net:58600/api/dashboard/cash'
 const instance = axios.create(
     {
         baseURL
