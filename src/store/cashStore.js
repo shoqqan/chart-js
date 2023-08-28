@@ -8,8 +8,8 @@ import {useAppStore} from "./appStore.js";
 export const useCashStore = create(persist(immer((set)=>({
     count: null,
     title: "",
-    start: "",
-    stop: "",
+    start: "2022-05-10",
+    stop: "2023-05-10",
     results: [],
     resume:{},
     result:[],
